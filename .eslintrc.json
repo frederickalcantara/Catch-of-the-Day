@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-indent": "off",
+    "no-tabs": "off",
+    "object-curly-newline": "off",
+    "indent": "off",
+    "react/jsx-indent-props": "off",
+    "react/no-did-mount-set-state": "off",
+    "react/jsx-boolean-value": "off",
+    "react/forbid-prop-types": "off",
+    "react/no-unescaped-entities": "off"
+  },
+  "globals": {
+      "localStorage": false,
+      "document": false
+  }
+}
